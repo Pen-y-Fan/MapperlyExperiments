@@ -1,0 +1,16 @@
+﻿services:
+  firstmapper:
+    image: firstmapper
+    build:
+      context: .
+      dockerfile: FirstMapper/Dockerfile
+    container_name: firstmapper_app
+
+  firstmapper-tests:
+    image: firstmapper-tests
+    build:
+      context: .
+      dockerfile: FirstMapper/Dockerfile
+      target: test
+    container_name: firstmapper_tests
+    entrypoint: ["dotnet", "test", "--logger:console"]
