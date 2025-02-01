@@ -1,4 +1,5 @@
 ﻿using FirstMapper.FirstMapper;
+using FirstMapper.GeneratedMapperExample;
 
-var firstRun = new FirstRun();
-firstRun.run();
+FirstRun.Execute();
+Second.Execute();
