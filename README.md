@@ -25,8 +25,8 @@ Follow these steps to get the project running locally on your machine:
 ### Clone the Repository
 
 ``` bash
-git clone <repository-url>
-cd <project-directory>
+git clone Pen-y-Fan/MapperlyExperiments
+cd MapperlyExperiments
 ```
 
 ## Running Locally
