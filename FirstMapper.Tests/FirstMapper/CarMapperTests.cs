@@ -1,6 +1,8 @@
+using FirstMapper.FirstMapper;
+
 using Shouldly;
 
-namespace FirstMapper.Tests;
+namespace FirstMapper.Tests.FirstMapper;
 
 public class CarMapperTests
 {

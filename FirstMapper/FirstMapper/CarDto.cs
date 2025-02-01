@@ -1,4 +1,4 @@
-namespace FirstMapper;
+namespace FirstMapper.FirstMapper;
 
 public class CarDto
 {
